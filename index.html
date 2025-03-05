@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            <span>Vishal</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="gradient-btn">Contact Me</button>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, it's <span>Vishal</span></h1>
+            <h3>
+                im a <span>Fullstack Developer</span>
+            </h3>
+            <p>"Hi, I’m Vishal, a dedicated Java Full Stack Developer passionate about building dynamic and responsive web applications. Explore my projects, skills, and experience to see how I turn ideas into impactful solutions. Let’s connect and create something amazing together!"</p>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+
+            </div>
+
+            <div class="btn-group">
+                <a href="" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="image/me.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- -------------------------------------home end ------------------------------------------------------------------- -->
+    <!-- -------------------------------------abt start ------------------------------------------------------------------- -->
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="image/me2.jpg" alt="">
+
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p> "Hi, I'm Vishal, a passionate Java Full Stack Developer with a knack for creating efficient and user-friendly web applications. Skilled in Java, HTML, CSS, and JavaScript, I thrive on solving complex problems and continuously learning new technologies. Let's collaborate to bring innovative ideas to life!"  </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+    <!-- -------------------------------------abt end ------------------------------------------------------------------- -->
+    <!-- -------------------------------------service start ------------------------------------------------------------------- -->
+    <section class="services" id="service">
+
+
+        <h2 class="headings">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Developer</h4>
+                    <p>I create responsive, visually appealing, and user-friendly interfaces using HTML, CSS, and JavaScript. My focus is on delivering seamless user experiences through clean, efficient, and interactive designs tailored to meet your project’s needs.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Backend Developer</h4>
+                    <p>I specialize in building robust, secure, and scalable server-side applications using Java. From database management to API development, I ensure seamless integration and optimal performance to support your business requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------services end------------------------------------------------------------------------------------------------------------------------ -->
+
+    <!-- ----------------projects start------------------------------------------------------------------------------------------------------------------------ -->
+
+
+    <section class="projects" id="projects">
+
+        <h2 class="headings">Projects</h2>
+
+        <div class="projects-box">
+
+            <div class="project-card">
+                <img src="image/project img/tic tac toe.png" alt="">
+
+                <h3>TIC TAC TOE</h3>
+
+                <p>"Developed a fully functional Tic-Tac-Toe game using JavaScript, HTML, and CSS. Features responsive design, interactive gameplay, and logic for detecting winners, providing an engaging and user-friendly experience."</p>
+
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="image/project img/Atm.jpg" alt="">
+
+                <h3>ATM Machine</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, voluptatem facilis? Facere, suscipit
+                    corrupti, quaerat debitis odio corporis architecto incidunt atque, hic velit commodi inventore in
+                    quisquam? Voluptas, illo provident!</p>
+
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="image/project img/TODO APP.png" alt="">
+
+                <h3>TODO APP</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, voluptatem facilis? Facere, suscipit
+                    corrupti, quaerat debitis odio corporis architecto incidunt atque, hic velit commodi inventore in
+                    quisquam? Voluptas, illo provident!</p>
+
+                <div class="btn">Review Project</div>
+
+        </div>
+
+    </section>
+
+    <!-- ----------------projects end------------------------------------------------------------------------------------------------------------------------ -->
+
+    <!-- -----------------contact start------------------------------------------------------------ -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="headings">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Email">
+
+                </div>
+
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone number">
+                    <input type="text" placeholder="Subject">
+
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+
+        </form>
+
+    </section>
+
+    <!-------------------------- contact end------------------------------------------------------------------------------------------------------------------------ -->
+
+    <!---------------------footer strat ------------------------------------------------------------------------------------------------------------------------ -->
+    <footer class="footer">
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+
+            <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+
+            <a href="#">
+                <i class="bx bxl-twitter"></i>
+            </a>
+
+        </div>
+
+        <ul class="list">
+            
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            
+            <li>
+                <a href="#service">Service</a>
+            </li>
+
+            <li>
+                <a href="#about">About me</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            Vishal | All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
